@@ -85,6 +85,7 @@ public class QuickSort {
                 p++;// 基准值不在这里，前移一位
             }
         }
+
         // 最后将基准位置的值和选定的基准值做交换
         if(p != r){
             swap(array, p, r);
