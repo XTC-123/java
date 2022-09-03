@@ -89,6 +89,7 @@ public class QuickSort {
         if(p != r){
             swap(array, p, r);
         }
+
         return p;
     }
 
