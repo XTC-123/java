@@ -23,6 +23,8 @@ public class TestThreadLocal {
         executorService.execute(()-> System.out.println(threadLocal.get()));
 
 
+        executorService.shutdown();
+
     }
 
 }
