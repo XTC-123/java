@@ -12,7 +12,6 @@ import java.util.stream.IntStream;
 
 import static com.LoggerUtils.*;
 
-// --add-opens java.base/java.util.concurrent=ALL-UNNAMED
 public class TestThreadPoolExecutor {
 
     public static void main(String[] args) throws InterruptedException {

@@ -13,7 +13,6 @@ import java.util.stream.Stream;
 
 import static com.LoggerUtils.*;
 
-// --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.locks=ALL-UNNAMED
 public class TestReentrantLock {
     static final MyReentrantLock LOCK = new MyReentrantLock(true);
 
