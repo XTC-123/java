@@ -5,6 +5,12 @@ import java.util.concurrent.Executors;
 
 /**
  *
+ * -XX:+UnlockDiagnosticVMOptions
+ * -XX:+PrintAssembly
+ * -Xcomp
+ * -XX:CompileCommand=dontinline,*TestThreadLocal.main
+ * -XX:CompileCommand=compileonly,*TestThreadLocal.main
+ *
  * 测试线程池的情况下，取ThreadLocal的值，会取到上一次使用此线程set值的问题
  * @author xtc
  * @create 2022-09-07 21:25
